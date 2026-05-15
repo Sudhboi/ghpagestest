@@ -13,7 +13,7 @@ To use Lumache, first install it using pip:
 Creating recipes
 ----------------
 
-To retrieve a list of random ingerdients, you can use the ``lumache.get_random_ingredients()`` function:
+To retrieve a list of random ingerdient :math:`\frac{ \sum_{t=0}^{N}f(t,k) }{N}` s, you can use the ``lumache.get_random_ingredients()`` function:
 
 .. autofunction:: lumache.get_random_ingredients 
 
@@ -24,3 +24,8 @@ The ``kind`` parameter should be either ``"meat"``, ``"fish"`` or ``"veggies"``.
 >>> import lumache
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
+
+.. math::
+
+   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
+
